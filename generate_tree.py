@@ -119,8 +119,8 @@ if height < 1 or branch_factor <= 0:
 	sys.exit(3)
 
 # root: height 100, at bottom of canvas 
-point0 = Line_Point.Point(0.0,-250.0)
-point1 = Line_Point.Point(0.0,-180.0)
+point0 = Line_Point.Point(0.0,-50.0)
+point1 = Line_Point.Point(0.0,0.0)
 root = Line_Point.Line(point0, point1)
 
 recursive_draw(root, height, branch_number, branch_factor)
